@@ -28,9 +28,19 @@ function dthinhchon() {
         {
             var dthinhtron=parseFloat(bankinh*2*Math.PI);
 
-            document.write("Dien tich hinh chon la: "+dthinhtron);
+            document.write("Dien tich hinh tron la: "+dthinhtron);
         }
         else
             document.write(" gia tri ban nhap vao khong co thuc");
 }
+function chuvi() {
+    var bankinh=parseInt(prompt("Xin moi nhap vao ban kinh "));
+    if(bankinh>0)
+    {
+        var chuvihinhtron=parseFloat(bankinh*Math.PI);
 
+        document.write("Chu vi hinh tron la: "+chuvihinhtron);
+    }
+    else
+        document.write(" gia tri ban nhap vao khong co thuc");
+}
